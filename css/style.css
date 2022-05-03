@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@600&family=Tapestry&display=swap');
+
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ul,
+li{
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+    
+}
+.container{
+    max-width: 100%;
+    
+    
+}
+.header-navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+a{
+    color: black;
+    opacity: 0.75;
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.material-symbols-outlined {
+    
+  transform: scale(1.2);
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 20
+}
+.material-symbols-outlined:hover {
+    opacity: .5;
+}
+button {
+    
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    padding: 9px 20px ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 27px;
+}
+.section {
+    flex: 1;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 107px;
+
+}
+.s-box{
+    width: 580px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.s-box .s-input {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0,0, 0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 25px;
+    outline: none;
+    transition: box-shadow 100ms;
+}
+.sb {
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 32px;
+    left: 14px;
+}
+.fb {
+    width: 14px;
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+.s-input {
+    width: 580px;
+    
+}
+.s-btn {
+    border: 1px solid transparent;
+    padding:  9px 15px;
+    color: #666;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 28px;
+    margin-right: 10px;
+    outline: none;
+    
+}
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    float: left;
+    overflow: hidden;
+    padding: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.footer-left , a{
+    margin-left: 20px;
+}
+.footer-right {
+    
+    justify-content:flex-end ;
+}
